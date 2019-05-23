@@ -1,0 +1,110 @@
+/* =====================
+Base Element Styles
+======================== */
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 0 auto;
+}
+
+header {
+  background-color: whitesmoke;
+}
+
+p {
+  font-weight: lighter;
+  color: #7c7e82;
+  padding: 7%;
+  font-size: 1.2em;
+  text-align: inherit;
+  word-spacing: .2em;
+  margin: 0 auto;
+
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 4em 2em 1.5em 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #6a6c70;
+  margin: 0 auto;
+}
+
+}
+
+h2, h3, span {
+  font-weight: inherit;
+  color: #6a6c70;
+
+
+}
+
+img {
+  margin: 1em auto;
+  padding: 5%;
+  max-width: 100%
+
+}
+
+.title {
+  font-weight: 600;
+  color: #4b4e54;
+  padding-top: 1em;
+  margin-top: 0;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+
+.main-nav a {
+  display: block;
+  font-weight: bolder;
+  color: #4b4e54;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.main-nav li {
+  display: block;
+  text-align: center;
+  padding: 1.2em;
+  background-color: white;
+  margin: 7px auto;
+
+}
+
+.profilepic {
+padding: 10% 15% 3% 15%;
+
+}
+
+.containerp {
+  padding: 0 3% 20% 3%;
+}
+
+}
+
+
+footer {
+  height: 10px;
+  margin-top: 2em;
+  padding-top: 5em;
+  background-color: whitesmoke;
+
+}
+
+footer span {
+  margin-right: 1em;
+
+}
