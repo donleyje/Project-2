@@ -10,7 +10,7 @@ Base Element Styles
 body {
   font-family: 'Fira Sans', sans-serif;
   text-align: center;
-  margin-bottom: 0 auto;
+  margin-bottom: 0;
 }
 
 header {
@@ -39,7 +39,7 @@ h3 {
   margin: 0 auto;
 }
 
-}
+
 
 h2, h3, span {
   font-weight: inherit;
@@ -93,18 +93,48 @@ padding: 10% 15% 3% 15%;
   padding: 0 3% 20% 3%;
 }
 
-}
-
-
 footer {
-  height: 10px;
-  margin-top: 2em;
-  padding-top: 5em;
   background-color: whitesmoke;
+  padding-top: 2em;
+
 
 }
 
-footer span {
-  margin-right: 1em;
+footer p {
+  margin: 0;
+  padding: 5% 2% 5% 2%;
 
+}
+
+.studentname {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding: none;
+  margin: 1em;
+
+}
+
+footer ul {
+  display: inline-block;
+
+}
+
+
+footer a {
+  display: inline-block;
+  width: 40%;
+  float: right;
+  padding: none;
+  margin: 1em;
+
+
+
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
