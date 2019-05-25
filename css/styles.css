@@ -112,8 +112,6 @@ footer a {
 
 }
 
-
-
 .ffloat1 {
   display: inline-block;
   width: 40%;
@@ -131,27 +129,64 @@ footer a {
   text-align: center;
   vertical-align: top;
 
-@media all (min-width: 768px) {
-
-
-
-
-
-
-
 }
 
+@media (min-width: 768px) {
+
+  .main-nav li {
+    background-color: whitesmoke;
+    display: inline-block;
+  }
 
 
-
-  /* =================================
-    clearfix
-  ==================================== */
-
-.clearfix:after {
-   content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  .wrapper {
+  width: 85%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 820px;
 }
+
+  .floatimg {
+    float: right;
+    width: 46.5%
+
+  }
+
+  .floatp {
+    float: left;
+    width: 46.5%
+
+
+  }
+
+  .profilepic {
+    padding: 5% 35% 15% 1%;
+    vertical-align: middle;
+    margin: 0px;
+
+
+
+  }
+
+
+
+  .containerp {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10% 1% 20% 20%;
+    overflow-x: hidden;:
+    vertical-align: middle;
+    font-size: .3em;
+    text-align: left;
+
+
+  }
+
+  .clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
