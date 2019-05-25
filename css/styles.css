@@ -230,6 +230,85 @@ footer a {
 
   }
 
+@media (min-width: 1024px) {
+
+body {
+  max-width: 1440px;
+  text-align: center;
+}
+
+.title {
+  text-align: left;
+
+}
+
+  .titlediv {
+    float: left;
+    width: 50%;
+
+  }
+
+  .navdiv {
+    float: right;
+    width: 50%;
+
+  }
+
+.profilepic {
+    margin-top: 20%;
+}
+
+.wrapperp {
+    margin-top: 20%;
+
+}
+
+  .container {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    max-width: 1030px;
+    vertical-align: top;
+  }
+
+  .one {
+    float: left;
+    width: 32%;
+
+
+  }
+
+  .two {
+    float: left;
+    width: 32%;
+
+  }
+
+  .three {
+    float: left;
+    width: 32%;
+  }
+
+  .four {
+    float: left;
+    width: 32%;
+  }
+
+  .five {
+    float: left;
+    width: 32%;
+  }
+
+  .six {
+    float: left;
+    width: 32%;
+  }
+
+
+}
+
+
   .clearfix:after {
      content: " ";
      visibility: hidden;
