@@ -156,8 +156,6 @@ footer a {
   .floatp {
     float: left;
     width: 46.5%
-
-
   }
 
   .profilepic {
@@ -165,13 +163,9 @@ footer a {
     vertical-align: middle;
     margin: 0px;
 
-
-
   }
 
-
-
-  .containerp {
+  .wrapperp {
     margin-left: auto;
     margin-right: auto;
     padding: 10% 1% 15% 15%;
@@ -180,6 +174,59 @@ footer a {
     font-size: 1em;
     text-align: left;
 
+
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    max-width: 820px;
+    vertical-align: top;
+  }
+
+  .one {
+    float: left;
+    width: 50%;
+
+
+  }
+
+  .two {
+    float: right;
+    width: 50%;
+
+  }
+
+  .three {
+    float: left;
+    width: 50%;
+  }
+
+  .four {
+    float: right;
+    width: 50%;
+  }
+
+  .five {
+    float: left;
+    width: 50%;
+  }
+
+  .six {
+    float: right;
+    width: 50%;
+  }
+
+
+  .block img {
+    padding: 2%;
+
+  }
+
+  .block p {
+    font-size: 1em;
 
   }
 
