@@ -10,15 +10,16 @@ rel="stylesheet">
   </head>
   <body>
 
-<header class="main-header clearfix">
+<header class="main-header clearfix" id="home">
   <div class="titlediv clearfix">
     <h1 class="title">Student Name</h1>
   </div>
   <div class="navdiv">
     <ul class="main-nav">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">PORTFOLIO</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#skills">SKILLS</a></li>
   </ul>
 </div>
 
@@ -36,7 +37,7 @@ rel="stylesheet">
 </header>
 
 <div>
-  <h2>PORTFOLIO</h2>
+  <h2 id="portfolio"> PORTFOLIO</h2>
 </div>
 
 <div class="container clearfix">
@@ -83,9 +84,24 @@ rel="stylesheet">
   </div>
 </div>
 
+<hr>
+
+<div class="skills" id="skills">
+  <h2>Skills</h2>
+  <p>Here are a list of my skills!</h2>
+  <ul class="skillsnav">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Ruby</li>
+  </ul>
+</div>
+
+
 <footer>
-    <h3><b>Contact</b></h3>
-    <p>If you're interested in chatting or want to hear what I've been working on, I'd love to hear from you!</p>
+    <h3 id="contact"><b>Contact </b></h3>
+    <p>If you're interested in chatting or <br>want to hear what I've been working on, <br>I'd love to hear from you!</p>
     <p>Phone          <b>(555) 555-5555</b><br>
     Email          <b>email@mymail.com</b></p>
     <hr>
@@ -94,7 +110,7 @@ rel="stylesheet">
   </div>
   <div class="ffloat2">
   <ul>
-    <li><a href="#">BACK TO TOP</a></li>
+    <li><a href="#home">BACK TO TOP</a></li>
   </ul>
 </div>
 </footer>
