@@ -4,7 +4,6 @@ Base Element Styles
 
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -15,7 +14,6 @@ body {
 
 header {
   background-color: whitesmoke;
-
 }
 
 p {
@@ -26,11 +24,11 @@ p {
   text-align: center;
   word-spacing: .2em;
   margin: 0 auto;
-
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.5em;
+  text-align: center;
   /* margin: 4em 2em 1.5em 2em; */
 }
 
@@ -46,8 +44,6 @@ h3 {
 h2, h3, span {
   font-weight: inherit;
   color: #6a6c70;
-
-
 }
 
 li:hover {
@@ -57,27 +53,31 @@ li:hover {
 a:hover {
   color: lavender;
   text-decoration: none;
-
 }
 
 img {
   margin: 1em auto;
   padding: 5%;
-  max-width: 100%
-
+  max-width: 100%;
 }
 
-.title {
-  font-weight: 600;
-  color: #4b4e54;
-  padding-top: 1em;
-  margin-top: 0;
+footer {
+  background-color: whitesmoke;
+  padding-top: 2em;
+  text-align: center;
+  margin: 0 auto;
 }
+
 
 /* =================================
   Base Layout Styles
 ==================================== */
 
+.title {
+  color: #4b4e54;
+  padding-top: 1em;
+  margin-top: 0;
+}
 
 .main-nav a {
   display: block;
@@ -97,12 +97,10 @@ img {
   padding: 1.2em;
   background-color: white;
   margin: 7px auto;
-
 }
 
 .profilepic {
 padding: 10% 15% 3% 15%;
-
 }
 
 .containerp {
@@ -110,25 +108,17 @@ padding: 10% 15% 3% 15%;
 }
 
 .skills {
-
-  padding: 0 2% 0% 2%;
-  margin:  7% 2% 5% 2%;
-  width: 90%;
+  padding: 2% 0 5% 0;
+  margin:  5% 0 5% 0;
   background-color: white;
   text-align: center;
-
 }
-
-
 
 .skills ul {
   display: inline-block;
   text-align: center;
   width: 40%;
-
-
 }
-
 
 
 .skills li {
@@ -138,28 +128,17 @@ padding: 10% 15% 3% 15%;
   border: 3px solid lavender;
   border-color: white;
   text-align: center;
-
 }
 
-footer {
-  background-color: whitesmoke;
-  padding-top: 2em;
-  text-align: center;
-
-
-
-}
 
 footer p {
   margin: 0;
   padding: 5% 2% 5% 2%;
-
 }
 
 footer a {
   text-decoration: none;
   color: gray;
-
 }
 
 .ffloat1 {
@@ -168,7 +147,6 @@ footer a {
   float: left;
   text-align: center;
   vertical-align: inherit;
-
 }
 
 .ffloat2 {
@@ -178,7 +156,6 @@ footer a {
   margin: 2%;
   text-align: center;
   vertical-align: top;
-
 }
 
 
@@ -190,8 +167,8 @@ footer a {
   }
 
 
+
   .wrapper {
-  width: 85%;
   padding-left: 50px;
   padding-right: 50px;
   margin: auto;
@@ -237,37 +214,17 @@ footer a {
     vertical-align: top;
   }
 
-  .one {
+  .one, .three, .five {
     float: left;
     width: 50%;
 
 
   }
 
-  .two {
+  .two, .four, .six {
     float: right;
     width: 50%;
 
-  }
-
-  .three {
-    float: left;
-    width: 50%;
-  }
-
-  .four {
-    float: right;
-    width: 50%;
-  }
-
-  .five {
-    float: left;
-    width: 50%;
-  }
-
-  .six {
-    float: right;
-    width: 50%;
   }
 
 
@@ -280,6 +237,8 @@ footer a {
     font-size: 1em;
 
   }
+
+}
 
 @media (min-width: 1024px) {
 
@@ -295,20 +254,18 @@ body {
 .title {
   text-align: left;
   padding-left: 5%;
-
 }
 
   .titlediv {
     float: left;
     width: 50%;
-
   }
 
   .navdiv {
     float: right;
     width: 50%;
-
   }
+
  ul li {
    font-size: 1.2em;
  }
@@ -317,17 +274,12 @@ body {
 .profilepic {
     margin: 8% 0 20% 3%;
     padding: 0;
-
-
 }
-
-
 
 .wrapperp {
     margin-top: 20%;
     padding: 0;
     font-size: 1.3em;
-
 }
 
   .container {
@@ -339,53 +291,25 @@ body {
     vertical-align: top;
   }
 
-  .one {
-    float: left;
-    width: 32%;
-
-
-  }
-
-  .two {
-    float: left;
-    width: 32%;
-
-  }
-
-  .three {
+  .one, .three, .five {
     float: left;
     width: 32%;
   }
 
-  .four {
-    float: left;
-    width: 32%;
-  }
-
-  .five {
-    float: left;
-    width: 32%;
-  }
-
-  .six {
+  .two, .four, .six {
     float: left;
     width: 32%;
   }
 
   .contactp {
     padding: 5% 20% 0 20%;
-
-
   }
 
   footer {
     max-width: 1030px;
     text-align: center;
-
-
   }
 }
-
 
   .clearfix:after {
      content: " ";
@@ -393,4 +317,4 @@ body {
      display: block;
      height: 0;
      clear: both;
-  }
+}
